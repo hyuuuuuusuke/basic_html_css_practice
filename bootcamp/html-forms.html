@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- FORM STRUCTURE -->
+    <!-- Action - where we want are page to go -->
+    <!-- Method - where the request or input field values will post/created , when we are saving data-->
+    <form action="html-forms.html" method="post">
+
+        <table>
+            <tr>
+                <td>
+                    <!-- for - a caption and specifies the input file associated/partner -->
+                    <!-- dash (-) - standard format -->
+                    <label for="first-name">First Name</label>
+                </td>
+                <td>
+                    <!-- TEXT INPUT -->
+                    <input type="text" id="first-name" placeholder="First Name">
+                </td>
+                <td>
+                    <!-- PASSWORD INPUT-->
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password" size="3">
+                </td>
+                <td>
+                    <!-- NUMBER INPUT-->
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number" id="age">
+                </td>
+                <td>
+                    <!-- DATE INPUT -->
+                    <label for="birth-date">Birthdate</label>
+                </td>
+                <td>
+                    <input type="date" id="birth-date">
+                </td>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <!-- Radio Button - only choose one -->
+        <h4>Choose gender:</h4>
+        <input type="radio" id="male" value="Male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" value="Female" name="gender">
+        <label for="female">Female</label>
+        
+        <tr>
+            <button type="Send-it" name="Send-it">Send it</button>
+            <button type="Clear-it" name="Clear-it">Clear it</button>
+        </tr>
+    </form>
+</body>
+</html>

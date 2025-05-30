@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS box model</title>
+  <style>
+    body{
+      /* background-color: rgba(69, 149, 93, 0.74); */
+      /* background-color: salmon;
+      opacity: 1; */
+      background-color: rgb(184, 184, 66);
+
+      /* hexcode a color but in differen format*/
+      background-color: #ae6c65;
+    }
+    div{
+      background-color: #ffffff;
+      opacity: 0.5; 
+      /* bg color transparency */
+      width: 300px;
+      height: 50px;
+      /* padding spaves inside element*/
+      /* padding: 10px; */
+      /* padding-right: 5px;
+      padding-left: 20px;
+      padding-top: 50px;
+      padding-bottom: 50px; */
+
+      /* 2 value-first value-top and bottom,second value-right and left */
+      /* padding: 20px 30px; */
+
+      /* 3value- first value-top, second value-right and left,thirdvalue-bottom
+      padding: 10px 20px 30px; */
+
+      padding: 10px 20px 30px 40px;
+
+      margin-right: 20px;
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 120px;
+
+      border: 5px solid yellow;
+
+      /* border: 5px dotted yellow;
+      border: 5px dotted yellow;
+      border: 5px dotted yellow;
+      border: 5px dotted yellow;
+      border: 5px dotted yellow; */
+      border-top: 5px groove yellow;
+      border-bottom: 5px groove yellow;
+      border-right: 5px groove yellow;
+      border-left: 5px groove yellow;
+
+      /* border radius border rounded */
+      /* border-radius: 150px; */
+      overflow: scroll;
+      box-shadow: 10px 15px 10px 5px red;
+    }
+
+    div.b{
+      background-color: salmon;
+    }
+
+    /* box sizing-width+padding+border=actual width of an element */
+    div.c{
+      background-color: salmon;
+      height: 200px;
+      width: 100px;
+      padding: 20px;
+      border: 1px solid yellow;
+      /* centering content */
+      text-align: center;
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+    <div class="a">
+      Sample Sample Sample Sample
+      Sample Sample Sample Sample
+    </div>
+    <div class="b">
+      Sample SampleSample SampleSample Sample
+    </div>
+    <div class="c">
+      Sample SampleSample SampleSample Sample
+    </div>
+</body>
+</html>

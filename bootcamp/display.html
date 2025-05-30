@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display</title>
+  <style>
+    .block{
+      display: block;
+    }
+
+    .inline{
+      display: inline;
+      border: 1px solid blue;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .inline-block{
+      border: 1px solid purple;
+      background-color: yellow;
+      display: inline-block;
+      height: 100px;
+      width: 100px;
+      z-index: ;
+    }
+
+    .display-none{
+      display: none;
+    }
+
+    img{
+      z-index: -1;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- BLOCK -->
+  <span class="block" style="border: 1px solid red;">This is a span but with display :BLOCK</span>
+  <span>span element</span>
+
+  <!-- INLINE -->
+  <p class="inline">This is a p tag with display: inline</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+
+  <hr>
+  <!-- Inline Block -->
+  <p>This is A <span class="inline-block">SPAN INLINE BLOCK</span>example</p>
+
+  <!-- none -->
+  <p class="display-none">This will not display</p>
+
+  <!-- z-index -->
+  <img src="assets/images/images.png" alt="" width="300px" height="300px">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+</body>
+</html>

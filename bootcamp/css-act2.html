@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Activity 2</title>
+  <style>
+    .card{
+      width: 25%;
+      margin: 25px;
+      border: 1px solid gray;
+      box-shadow: 3px 3px 6px 1px gray;
+      float: left;
+    }
+
+    .card img{
+      width: 100%;
+    }
+
+    .card-body{
+      padding: 25px;
+    }
+
+    .text-bold{
+      font-weight: bold;
+    }
+
+    .top-corners-rounded{
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+
+    .top-corners-rounded img{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="assets/images/images.png" alt="images.png">
+    <div class="card-body">
+          <p class="text-bold">John Doe</p>
+          <p>Architect and Designer</p>
+    </div>
+  </div>
+
+  <div class="card top-corners-rounded">
+    <img src="assets/images/images.png" alt="" class="top-corners-rounded">
+    <div class="card-body">
+          <p class="text-bold">John Doe</p>
+          <p>Architect and Designer</p>
+    </div>
+  </div>
+</body>
+</html>
